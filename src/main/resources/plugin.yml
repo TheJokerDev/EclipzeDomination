@@ -1,0 +1,8 @@
+name: EclipzeDomination
+version: ${project.version}
+main: net.ulterior.EclipzeDomination.Main
+api-version: 1.17
+prefix: ED
+depend: [ PlaceholderAPI ]
+authors: [ UlteriorSL ]
+description: Kits, niveles, skills y boosters

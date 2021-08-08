@@ -1,0 +1,11 @@
+prefix: '&8[&eEclipze&cDomination&8] &8↣ '
+
+database:
+  mode: mysql
+  data:
+    ip: localhost
+    port: 3306
+    user: root
+    password: TheMostSecurePassword123
+    database: eclipzedomination
+    table: eclipzeDomData
