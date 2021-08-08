@@ -1,0 +1,16 @@
+levels:
+  '1':
+    display: '&aLevel &e&l1&a'
+    equation:
+      enabled: false
+      xp: 100
+  '2':
+    display: '&aLevel &e&l1&a'
+    equation:
+      enabled: true
+      line: '(%last-level%0.5)*100'
+  '3':
+    display: '&aLevel &e&l1&a'
+    equation:
+      enabled: true
+      line: '(%last-level%0.5)+100'

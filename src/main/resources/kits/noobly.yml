@@ -1,0 +1,15 @@
+settings:
+  slot: 11
+  price: 0
+  level: 0
+  permission: kit.noobly
+
+icon:
+  material: wooden_pickaxe
+  meta:
+    name: '&eKit &8- &aNoobly'
+    lore:
+      - ''
+      - '&7 A noobly kit for'
+      - '&7 newbie users.'
+      - ''

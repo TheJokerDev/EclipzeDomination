@@ -18,6 +18,7 @@ public class Kit {
     private int levelRequired = 0;
     private String permission = null;
     private List<KitItem> items;
+    private int slot;
 
     public Kit (String name){
         this.name = name;
@@ -35,6 +36,10 @@ public class Kit {
 
         if (exist("settings.permission")){
             permission = getFile().getString("settings.permission");
+        }
+
+        if (exist("settings.slot")){
+            slot = getFile().getInt("settings.slot");
         }
 
         if (exist("items")){
@@ -97,5 +102,9 @@ public class Kit {
 
     public String getPermission() {
         return permission;
+    }
+
+    public int getSlot() {
+        return slot;
     }
 }

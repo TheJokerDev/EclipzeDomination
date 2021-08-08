@@ -1,6 +1,5 @@
 package net.ulterior.EclipzeDomination.kits;
 
-import net.ulterior.EclipzeDomination.Main;
 import net.ulterior.others.ItemsUtil;
 import net.ulterior.others.SimpleItem;
 import org.bukkit.configuration.ConfigurationSection;

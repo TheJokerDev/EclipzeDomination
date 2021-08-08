@@ -89,6 +89,14 @@ public class Utils {
         return files;
     }
 
+    public static FileConfigurationUtil getLevels(){
+        File file = new File(Main.getPlugin().getDataFolder(), "levels.yml");
+        if (!file.exists()){
+            Main.getPlugin().saveResource("levels.yml", false);
+        }
+        return new FileConfigurationUtil(file);
+    }
+
     public static String getCenteredMSG(String message){
         if(message == null || message.equals("")){
             return null;
